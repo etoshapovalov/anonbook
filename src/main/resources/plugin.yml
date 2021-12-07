@@ -1,0 +1,14 @@
+name: Anonbook
+version: '${version}'
+main: etoshapovalov.anonbook.Anonbook
+api-version: 1.17
+authors: [ etoshapovalov ]
+commands:
+  anon:
+    description: Анонимно подписать книгу
+    usage: /<command> [name]
+    permission: anonbook.anon
+  anoncheck:
+    description: Проверка настоящего автора книги
+    usage: /<command>
+    permission: anonbook.check
